@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Colors
+//  Color Picker
 //
-//  Created by Armaja LaRue-Hill on 10/25/19.
+//  Created by Armaja LaRue-Hill on 12/2/19.
 //  Copyright © 2019 Armaja LaRue-Hill. All rights reserved.
 //
 
@@ -46,6 +46,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
+
+        // Save changes in the application's managed object context when the application transitions to the background.
+        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
 

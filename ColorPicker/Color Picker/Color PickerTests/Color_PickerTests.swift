@@ -1,15 +1,15 @@
 //
-//  ColorsTests.swift
-//  ColorsTests
+//  Color_PickerTests.swift
+//  Color PickerTests
 //
-//  Created by Armaja LaRue-Hill on 10/25/19.
+//  Created by Armaja LaRue-Hill on 12/2/19.
 //  Copyright © 2019 Armaja LaRue-Hill. All rights reserved.
 //
 
 import XCTest
-@testable import Colors
+@testable import Color_Picker
 
-class ColorsTests: XCTestCase {
+class Color_PickerTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
