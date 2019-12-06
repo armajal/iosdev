@@ -29,8 +29,19 @@ class ViewController: UIViewController {
             
         }
         
-        let action 
+        let action = UIAlertAction(title: "Post", style: .default) {(_) in
+            
+            let name = alert.textFields!.first!.text!
+            let age = alert.textFields!.last!.text!
+            print(name)
+            print(age)
+            
+        }
         
+        alert.addAction(action)
+        present(alert, animated:true, completion: nil)
+    }
+}
     extension ViewController: UITableViewDataSource {
         func numberOfSections(in tableView: UITableView) -> Int {
             return 1
