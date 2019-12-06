@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ConversionCalculator
 //
-//  Created by Armaja LaRue-Hill on 10/31/19.
+//  Created by Armaja LaRue-Hill on 12/6/19.
 //  Copyright © 2019 Armaja LaRue-Hill. All rights reserved.
 //
 
